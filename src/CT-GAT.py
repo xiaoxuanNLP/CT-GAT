@@ -75,8 +75,8 @@ def content_chinese(sentence):
 
 def attack(model, orig_test, tokenizer, ATTACK_ITER, task_name, tem):
     # test
-    bart_model = Bart("/mnt/lmx_home/AttackTextGenerator/base/bart-base", device=BART_DEVICE)
-    # bart_model = Bart(config.BASE_MODEL, device=BART_DEVICE)
+    # bart_model = Bart("/mnt/lmx_home/AttackTextGenerator/base/bart-base", device=BART_DEVICE)
+    bart_model = Bart(config.BASE_MODEL, device=BART_DEVICE)
     param_file = get_lowest_loss_file(base_path+"/param/")
     checkpoint = torch.load(param_file)
 
