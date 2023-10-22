@@ -21,10 +21,11 @@ mkdir victim
 ## Experiments
 In this step, you need to operate under the `CT-GAT` directory.
 
-First, you need to train the CT-GAT generator. You can run the following command for training. You can also directly download our parameters from Google Cloud: here.
+First, you need to train the CT-GAT generator. You can run the following command for training. You can also directly download our parameters from Google Cloud: here. Or you can download our trained model parameters from Baidu Cloud: [here](https://pan.baidu.com/s/1U195DoiQOMpfi6FNQ4dwzw?pwd=xozm)
 ```
 bash scripts/train_CT-GAT.sh
 ```
+
 
 Then you should fine-tune the pre-trained model on our security datasets collection Advbench.
 ```
