@@ -1,0 +1,10 @@
+MAX_LEN = 512
+# MAX_LEN = 25
+TRAIN_BATCH_SIZE = 19
+# TRAIN_BATCH_SIZE = 1
+VAL_BATCH_SIZE = 25
+LEARNING_RATE = 1e-4
+
+TCAB_DATA_PATH = "./data/TCAB/"
+PARAM_PATH = "./param/"
+BASE_MODEL = "facebook/bart-base"
