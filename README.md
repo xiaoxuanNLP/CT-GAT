@@ -49,3 +49,13 @@ bash scripts/CT-GAT.sh
 
 ## Citation
 Please kindly cite our paper:
+```
+@misc{lv2023ctgat,
+      title={CT-GAT: Cross-Task Generative Adversarial Attack based on Transferability}, 
+      author={Minxuan Lv and Chengwei Dai and Kun Li and Wei Zhou and Songlin Hu},
+      year={2023},
+      eprint={2310.14265},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
