@@ -16,6 +16,7 @@ Execute the following code to create the required folders
 ```
 mkdir param
 mkdir victim
+mkdir output
 ```
 
 ## Experiments
